@@ -21,4 +21,8 @@ public class AdminRestController {
     public String sayHi ()
     { return "Đây là trang admin";}
 
+    @GetMapping("/bye")
+    public String sayBye ()
+    { return "Đây là trang admin";}
+
 }
