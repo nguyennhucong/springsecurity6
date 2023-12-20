@@ -17,4 +17,8 @@ public class AdminRestController {
     public String sayHello ()
     { return "Đây là trang admin";}
 
+    @GetMapping("/hi")
+    public String sayHi ()
+    { return "Đây là trang admin";}
+
 }
